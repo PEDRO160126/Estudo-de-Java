@@ -3,23 +3,23 @@
 import java.util.Scanner;
 public class Media{
     public static void main(String[] args){
-        Scanner leitor = new (Scanner.in);
+        Scanner leitor = new Scanner(Scanner.in);
         System.out.println("Digite o valor da nota 1 :");
-        int nota1 = leitor.nextInt();
+        double nota1 = leitor.nextDouble();
 
         System.out.println("Digite o valor da nota 2 :");
-        int nota2 = leitor.nextInt();
+        double nota2 = leitor.nextDouble();
 
         System.out.println("Digite o valor da nota 3 :");
-        int nota3 = leitor.nextInt();
+        double nota3 = leitor.nextDouble();
 
         System.out.println("Digite o valor da nota 4 :");
-        int nota4 = leitor.nextInt;
+        double nota4 = leitor.nextDouble();
 
-        int calculo = (nota1 + nota2 + nota3 + nota4) / 4 ;
+        double calculo = (nota1 + nota2 + nota3 + nota4) / 4 ;
 
         System.out.println("A nota final do aluno é :" + calculo);
 
-        leitor.close()
+        leitor.close();
     }
 }
