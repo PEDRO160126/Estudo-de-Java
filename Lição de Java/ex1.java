@@ -22,6 +22,6 @@ public class Equacao{
 
         System.out.println("O valor de x é :" + x);
 
-        leitor.close()
+        leitor.close();
         }
     }
